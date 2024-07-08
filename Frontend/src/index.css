@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link {
+  margin-left: 2rem;
+}
+a{
+  text-decoration: none;
+}
+button {
+  width: 10rem !important;
+}
+
+@media only screen and (max-width: 800px) {
+  
+  .hero{
+    margin-top: 5rem !important;
+    width: 50vh !important;
+  }
+  .col-md-1{
+    width: 0 !important;
+  }
+  .padding{
+    padding: 0rem !important;
+    font-size: smaller;
+    
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  
+  
+  .navbar-toggler-ico{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+  .navbar-toggler{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 4rem !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  
+  .hero{
+    margin-top: 5rem !important;
+    width: 300px !important;
+  }
+  .product-img-l{
+    width: 18rem;
+    margin: -3rem;
+  }
+  .product-img-r{
+    width: 18rem;
+    margin: 1rem;
+  }
+  
+}
