@@ -22,6 +22,8 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
+
+
 app.get("/allHoldings", async (req, res) => {
     let allHoldings = await HoldingsModel.find({});
     res.json(allHoldings);
@@ -31,6 +33,9 @@ app.get("/allPositions", async (req, res) => {
     let allPositions = await PositionsModel.find({});
     res.json(allPositions);
   });
+app.get("/", (req,res)=>{
+    res.send("working fine");
+});
 
   app.use(cookieParser());
   
